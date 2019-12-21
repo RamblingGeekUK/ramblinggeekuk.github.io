@@ -1,86 +1,80 @@
-#
-# This file contains configuration flags to customize your site
-#
+# Site settings 
+title: 'Rokhimin whd | site'
+description: 'Private Blog and my notes'
+keyword: 'ruby, rails, sinatra, javascript, vuejs, expressjs'
+url: '' 
+baseurl: ''
 
-# Name of your site (displayed in the header)
-name: Wayne Taylor (RamblingGeek)
+# Navigation links
+nav:
+  home: '/'
+  about: '/about.html' 
+  tags: '/tags.html' 
+  project: '/projects.html' 
 
-# Short bio or description (displayed in the header)
-description: Web Developer from the UK
+# Footer
+footer:
+  since: 2019
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+# Author 
+author: 'Rokhimin whd'
+nickname: 'whdzera'
+bio: 'hi @everyone, im programmer ruby on rails. blogging as my hobby'
+avatar: 'assets/img/profile.png'
 
-#
-# Flags below are optional
-#
+# Search
+search: true
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github: barryclark/jekyll-now
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+# Night mode
+nightMode: true #always_true
 
+# Comments
+comments:
+  disqus: true
+  disqus_url: 'https://rokhimin.disqus.com/embed.js'
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
+# MathJax by Ray-Eldath
+mathjax: false
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+# Share
+social-share: false
+social-share-items: ['vk', 'facebook', 'twitter']
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url:
+# theme color
+theme-color: 'default' 
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'assets/img/banner.jpg'
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
+# SNS settings 
+# url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  email: 'mailto:whdzera@gmail.com'
+  github: '//github.com/rokhimin'
+  linkedin: '//www.linkedin.com/in/rokhim-wahid-4b4209142'
+  instagram: '//www.instagram.com/rokhiminwahid'
+  twitter: '//twitter.com/rokhiminwahid'
 
-permalink: /:title/
+# Tags 
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
-# The release of Jekyll Now that you're using
-version: v1.2.0
+# Build settings
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', '_darkness', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
 
-# Jekyll 3 now only supports Kramdown for Markdown
+# Markdown
+markdown: kramdown
+highlighter: rouge
 kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
 
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
+# RSS
+RSS: false
 
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+# Permalink
+permalink: /:title.rb
 
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+# Plugins
+plugins: [jekyll-paginate]
