@@ -32,17 +32,17 @@ color:
 
 # Footer settings
 footer:
-  copyright: Wayne Taylor
-  location: Location
+  copyright: Rambling Geek / Wayne Taylor
+#  location: Location
   social: Around the Web
-  credits: Credits
+#  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: https://twitter.com/rgeekuk
-  - title: facebook
-    url:
+  - title: twitch
+    url: https://www.twitch.tv/ramblinggeek
   - title: github
     url: https://github.com/RamblingGeekUK
 
@@ -52,7 +52,7 @@ social:
 #  - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
