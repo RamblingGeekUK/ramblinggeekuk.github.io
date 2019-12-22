@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Testing to see how quickly this appears
+title: Testing updating an existing post and tags
+tags: [stream, jeklly, netlify]
 ---
 
 This is a test it should update
