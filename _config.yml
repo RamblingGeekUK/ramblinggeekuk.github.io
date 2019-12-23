@@ -1,4 +1,4 @@
-title:              Wayne Taylor - RamblingGeek
+title:              Wayne Taylor
 email:              hello@RamblingGeek.co.uk
 description:        RamblingGeek
 author:             Wayne Taylor
@@ -6,10 +6,10 @@ baseurl:            "/"
 url:                "https://waynetaylor.dev"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    BlackrockDigital
-facebook_username:  StartBootstrap
-linkedin_username:
+twitter_username: ramblinggeek  
+github_username: RamblingGeekUK
+#linkedin_username:
+#facebook_username:  
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
