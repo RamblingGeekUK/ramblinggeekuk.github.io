@@ -1,59 +1,24 @@
-# Site settings
-title: RamblingGeek
-email: contact@RamblingGeek.co.uk
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "twitch, code, .net, microsoft, wayne taylor"
-skills: "Developer"
-meta_author: FirstName LastName
+title:              Clean Blog
+email:              your-email@example.com
+description:        A Blog Theme by Start Bootstrap
+author:             Start Bootstrap
+baseurl:            "/startbootstrap-clean-blog-jekyll"
+url:                "https://blackrockdigital.github.io"
 
-# Google webmaster tools
-google_verify:
+# Social Profiles
+twitter_username:   SBootstrap
+github_username:    BlackrockDigital
+facebook_username:  StartBootstrap
+linkedin_username:
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Footer settings
-footer:
-  copyright: Rambling Geek / Wayne Taylor
-#  location: Location
-  social: Around the Web
-#  credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/rgeekuk
-  - title: twitch
-    url: https://www.twitch.tv/ramblinggeek
-  - title: github
-    url: https://github.com/RamblingGeekUK
-
-# Postal address (add as many lines as necessary)
-# address:
-#  - line: 3481 Melrose Place
-#  - line: Beverly Hills, CA 90210
-
-# Credits content
-# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
-markdown: kramdown
-permalink: pretty
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
