@@ -3,7 +3,8 @@ layout: post
 title: "Stream Notes"
 subtitle: "because why not"
 date: 2019-12-28 00:06:00 -0000
-tags: new, stream, markdown
+categories: [stream]
+tags: new, markdown
 ---
 
 12/28/2019 3:50:01 PM,Broadcaster,RamblingGeek,ramblinggeek,True,test
